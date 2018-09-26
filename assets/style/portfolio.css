@@ -204,9 +204,16 @@ img {
   border-style: groove;
 }
 
+
 #accessbtns {
   background-color: silver;
   border-radius: 25px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00A0C6; 
+  cursor: pointer;
 }
 
 .fa-arrow-circle-right {
