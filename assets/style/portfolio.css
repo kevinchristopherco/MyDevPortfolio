@@ -211,6 +211,12 @@ img {
   text-decoration: none;
 }
 
+#accessbtn2 {
+  background-color: silver;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
 a:hover {
   color: #00A0C6; 
   cursor: pointer;
