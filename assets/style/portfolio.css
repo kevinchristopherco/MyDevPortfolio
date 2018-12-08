@@ -123,7 +123,32 @@ img {
 
 #html-bar {
    background-color: green;
-   width: 110px;
+   width: 60%;
+}
+
+#css-bar {
+   background-color: green;
+   width: 55%;
+}
+
+#javascript-bar {
+   background-color: green;
+   width: 40%;
+}
+
+#php-bar {
+   background-color: green;
+   width: 40%;
+}
+
+#mysql-bar {
+   background-color: green;
+   width: 45%;
+}
+
+#laravel-bar {
+   background-color: green;
+   width: 20%;
 }
 
 
