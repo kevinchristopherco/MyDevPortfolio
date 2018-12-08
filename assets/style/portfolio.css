@@ -121,11 +121,9 @@ img {
 
 }
 
-pre {
-	background: black;
-	text-align: left;
-	padding: 20px;
-	margin: 0 auto 30px auto; 
+#html-bar {
+   background-color: green;
+   width: 110px;
 }
 
 
