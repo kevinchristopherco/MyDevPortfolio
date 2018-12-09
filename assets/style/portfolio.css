@@ -180,22 +180,33 @@ img {
    margin-left: 50px;
 }
 
-
+#birthdate, #birthplace, #sex, #civilstatus, #weight, #height, #citzenship {
+  margin-left: 110px;
+}
 
 .skill {
    margin-top: 20px;
    margin-left: 50px;
 }
 
-.education {
-   margin-top: 20px;
-   margin-left: 50px;
+
+
+#edutitle {
+  margin-left: 55px;
+  margin-top: 20px;
+
 }
 
-.work {
+#worktitle {
+  margin-left: 60px;
   margin-top: 20px;
-  margin-left: 50px;
+
 }
+
+/*#company, #company2, #company3, #role, #role2, #role3, #role4, #role5,
+#role6, #role7, #role8, #role9 {
+  margin-right: 200px;
+}*/
 
 .projects {
 
