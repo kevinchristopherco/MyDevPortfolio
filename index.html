@@ -107,16 +107,16 @@
       <div class="row clear" id="personals">
         <div class="section main personal col-lg-12 col-md-12 col-sm-12">
           <h2>Personal Information</h2>
-          <p><strong>Date of Birth        :</strong> April 17, 1993</p>
+          <p id="birthdate"><strong>Date of Birth        :</strong> April 17, 1993</p>
           
-          <p><strong>Place of Birth        :</strong>     Quezon City, Philippines</p>
+          <p id="birthplace"><strong>Place of Birth        :</strong>     Quezon City, Philippines</p>
           
-          <p><strong>Sex              :</strong>   Male</p>
+          <p id="sex"><strong>Sex              :</strong>   Male</p>
           
-          <p><strong>Civil Status        :</strong>   Single</p>
-          <p><strong>Height       :</strong>   5'4</p>
-          <p><strong>Weight      :</strong>   57 kg</p>
-          <p><strong>Citizenship        :</strong>        Filipino</p>
+          <p id="civilstatus"><strong>Civil Status        :</strong>   Single</p>
+          <p id="height"><strong>Height       :</strong>   5'4</p>
+          <p id="weight"><strong>Weight      :</strong>   57 kg</p>
+          <p id="citzenship"><strong>Citizenship        :</strong>        Filipino</p>
 
         </div>
       </div>
@@ -124,48 +124,68 @@
       <div class="row clear" id="skills">
         <div class="section main skill col-lg-12 col-md-12 col-sm-12">
           <h2>Technical Skills</h2>
-	     <div class="row progress-row">
-		<div class="progress row col-lg-8 offset-lg-2">
-		  <strong>HTML</strong>
-		  <div class="progress">
-		     <div id="html-bar" class="progress-bar"></div>
-		  </div>
-		  <strong>CSS</strong>
-		  <div class="progress">
-		     <div id="css-bar" class="progress-bar"></div>
-		  </div>
-	        </div>
-	    </div>
-        </div>
+	        <div class="row progress-row">
+		        <div class="progress-row col-lg-9 offset-lg-1">
+		          <strong>HTML</strong>
+		          <div class="progress">
+		            <div id="html-bar" class="progress-bar"></div>
+		          </div>
+		          <strong>CSS</strong>
+		          <div class="progress">
+		            <div id="css-bar" class="progress-bar"></div>
+		          </div>
+              <strong>Javascript</strong>
+              <div class="progress">
+                <div id="javascript-bar" class="progress-bar">
+                </div>
+              </div>
+              <strong>PHP</strong>
+              <div class="progress">
+                <div id="php-bar" class="progress-bar">
+                </div>
+              </div>
+              <strong>MySQL</strong>
+              <div class="progress">
+                <div id="mysql-bar" class="progress-bar">
+                </div>
+              </div>
+              <strong>Laravel</strong>
+              <div class="progress">
+                <div id="laravel-bar" class="progress-bar">
+                </div>
+              </div>
+              
+	          </div>
+	       </div>
       </div>
 
       <div class="row clear" id="works">
-        <div class="section main work col-lg-12 col-md-12 col-sm-12">
-          <h2>Work Experience</h2>
-             <ul><strong>IBM Philippines</strong>
-               <li>SAP Change Release Management</li>
-               <li>February 2017 - July 2018</li>
-               <li>Reviewed change release documents and reported issues to client based on given guidelines.</li>
+          <div class="section main work col-lg-12 col-md-12 col-sm-12">
+           <h2 id="worktitle">Work Experience</h2>
+             <ul><strong id="company3">IBM Philippines</strong>
+               <li id="role9">SAP Change Release Management</li>
+               <li id="role8">February 2017 - July 2018</li>
+               <li id="role7">Reviewed change release documents and reported issues to client based on given guidelines.</li>
              </ul>
 
-             <ul><strong>IBM Philippines</strong>
-               <li>Quality Assurance Tester</li>
-               <li>February 2016 - January 2017</li>
-               <li>Created test cases and test visualizations using software tools such as SOAP Pro NG and Selenium IDE for financial data.</li>
+             <ul><strong id="company2">IBM Philippines</strong>
+               <li id="role6">Quality Assurance Tester</li>
+               <li id="role5">February 2016 - January 2017</li>
+               <li id="role4">Created test cases and test visualizations using software tools such as SOAP Pro NG and Selenium IDE for financial data.</li>
              </ul>
             
-             <ul><strong>SMITS, Inc.</strong>
-                <li>Intern</li>
-                <li>April 2014 - May 2014</li>
-                <li>Listed queries and created tables for database management.</li>
+             <ul><strong id="company">SMITS, Inc.</strong>
+                <li id="role3">Intern</li>
+                <li id="role2">April 2014 - May 2014</li>
+                <li id="role">Listed queries and created tables for database management.</li>
              </ul>
- 
         </div>
+      </div>
       </div>
 
       <div class="row clear" id="educations">
         <div class="section main education col-lg-12 col-md-12 col-sm-12">
-          <h2>Educational Attainment</h2>
+          <h2 id="edutitle">Educational Attainment</h2>
           <ul><strong>Tuitt Philippines Incorporated</strong>
             <li>Certificate Course in Full Stack Web Development</li>
             <li>August 2018 - present (Student)</li>
@@ -183,7 +203,6 @@
   
         </div>
       </div>
-
       <div class="row clear" id="projects">
         <div class="section main personal col-lg-12 col-md-12 col-sm-12">
           <h2>Projects</h2>
@@ -215,7 +234,7 @@
 	      
 	    <div class="card col-lg-4 col-sm-12">
                 <div class="class-header">
-                   <a href="http://young-island-97888.herokuapp.com"><img class="card-img-top img-fluid" src="./assets/images/heatlogo.jpg" alt="Capstone Project 2" width="140px" height="160px"></a>
+                   <a href="http://young-island-97888.herokuapp.com"><img class="card-img-top img-fluid" src="./assets/images/heatlogo.jpg" alt="Capstone Project 3" width="140px" height="160px"></a>
 		</div>
 		<div class="card-body p-3 clear">
      		  <p class="card-text">HEAT is an blogging site where people can write about reviews about the aspects of HEAT Restaurant such as the food, service, management, etc.
