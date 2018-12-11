@@ -101,21 +101,6 @@ img {
 }
 
 
-#display-container {
-  opacity: 1;
-  padding: 0px;
-  font-family: 'Libre Baskerville', serif;
-  width: 300px;
-  height: auto;
-  margin: auto;
-  top: 0;
-  bottom: 0;
-  border-style: groove;
-  max-width: 100%;
-  border-radius: 25px;
-}
-
-
 
 .intro {
 
