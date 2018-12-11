@@ -60,11 +60,12 @@ img {
 #display-container {
   background-color: none;
   text-align: center;
-  width: 700px;
-  height: 250px;
+  width: 640px;
+  height: 310px;
+  margin: auto;
   border-style: inset;
-  margin-left: 280px;
-  
+  border-style: groove;
+  border-radius: 25px;
 }
 
 
@@ -89,7 +90,7 @@ img {
 
 
 .jumbotron {
-  height: 100vh;
+  height: 650px;
   padding-top: 20%;
   background-image: url(../images/backgroundphoto.jpg);
   background-repeat: none;
@@ -99,7 +100,6 @@ img {
   border-style: groove;
   border-radius: 25px;
 }
-
 
 
 .intro {
@@ -114,6 +114,11 @@ img {
 #css-bar {
    background-color: green;
    width: 55%;
+}
+
+#bootstrap-bar {
+   background-color: green;
+   width: 45%;
 }
 
 #javascript-bar {
@@ -141,6 +146,7 @@ img {
   background-color: #1D8A99;
   width: 18rem;
   padding: 60px;
+  border-style: none;
 }
 
 .card-img-top {
@@ -150,13 +156,21 @@ img {
 
 .card-body {
   border-top: ridge;
-  float: left;
   background-color: white;
+  text-align: center;
+  vertical-align: center;
+
+}
+
+h6 {
+  text-align: center;
+  vertical-align: center;
 }
 
 .card-text {
-  float: left;
   color: black;
+  text-align: center;
+  vertical-align: center;
 }
 
 
@@ -219,39 +233,49 @@ img {
   background-color: #0E1C36;
   text-align: center;
   position: relative;
-  padding-right: 130px;
-  margin-right: 180px;
+  margin: auto;
+  vertical-align: center;
+  padding: auto;
 
 }
 
+#footer-content {
+  margin: auto;
+}
+
 .accessbtn {
-  background-color: silver;
-  border-radius: 25px;
+  border-radius: 95px;
   border-style: groove;
 }
 
 
 #accessbtns {
-  background-color: silver;
   border-radius: 25px;
   text-decoration: none;
+  width: 95px;
+  text-align: center;
 }
 
 #accessbtn2 {
-  background-color: silver;
   border-radius: 25px;
   text-decoration: none;
+  width: 95px;
+  text-align: center;
+
 }
 
 #accessbtn3 {
-  background-color: silver;
   border-radius: 25px;
   text-decoration: none;
+  width: 95px;
+  text-align: center;
+
 }
 
 a:hover {
   color: #00A0C6; 
   cursor: pointer;
+  text-decoration: none;
 }
 
 .fa-arrow-circle-right {
@@ -282,7 +306,6 @@ ul {
 li {
   margin-left: 30px;
 }
-
 
 /* responsive part */
 /* mobile */
